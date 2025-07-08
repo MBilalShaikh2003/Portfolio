@@ -25,9 +25,22 @@ const Body = () => {
                         <button  onClick={handleViewProjects} className="bg-[#8F19FF] text-white px-4 py-2 rounded-md hover:bg-[#7A25C9] transition">
                             View Projects
                         </button>
+{/*                         
                         <button className="bg-[#8F19FF] text-white px-4 py-2 rounded-md hover:bg-[#7A25C9] transition">
                             Download CV
-                        </button>
+                        </button> */}
+
+<a
+  href="/BilalShaikhCV.pdf"
+  download="Bilal-Sheikh-CV.pdf"
+  target="_blank"
+  rel="noopener noreferrer"
+  className="bg-[#8F19FF] text-white px-4 py-2 rounded-md hover:bg-[#7A25C9] transition"
+>
+  Download CV
+</a>
+
+
                     </div>
                 </div>
 
