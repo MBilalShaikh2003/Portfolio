@@ -7,7 +7,7 @@ import Link from 'next/link';
 
 const page = () => {
   return (
-    <div className="bg-[#1C1C1C] text-white min-h-screen flex flex-col">
+    <div className="bg-[#242424] text-white min-h-screen flex flex-col">
       <Header />
 
       <div className="flex-1 px-8 py-12 flex justify-center">
